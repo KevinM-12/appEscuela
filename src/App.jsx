@@ -6,6 +6,7 @@ import './App.css'
 
 import Navbar from "./components/Navbar/Navbar";
 import AlumnoCard from "./components/AlumnoCard/AlumnoCard";
+import Contador from './components/Contador/Contador'
 
 function App() {
   return (
@@ -19,39 +20,43 @@ function App() {
           <AlumnoCard
           nombre="Daniel Puccio"
           carrera="Desarrollo de Software"
-          estado="Matriculado"
+          estadoInicial="Matriculado"
           />
           
           <AlumnoCard
           nombre="Maria Perez"
           carrera="Diseño Grafico"
-          estado="Inactivo"
+          estadoInicial="Inactivo"
           />
 
           <AlumnoCard
           nombre="Carlos Mendoza"
           carrera="Administracion Industrial"
-          estado="Matriculado"
+          estadoInicial="Matriculado"
           />
 
           <AlumnoCard
           nombre="Diego Fernandez"
           carrera="Ciberseguridad"
-          estado="Inactivo"
+          estadoInicial="Inactivo"
           />
 
           <AlumnoCard
           nombre="Camila Vargas"
           carrera="Administración de Empresas"
-          estado="Matriculado"
+          estadoInicial="Matriculado"
           />
 
           <AlumnoCard 
           nombre="Sebastian Flores"
           carrera="Diseño Gráfico"
-          estado="Inactivo"
+          estadoInicial="Inactivo"
           />
         </div>
+
+        <Contador
+
+        />
       </div>
     </>
   );
